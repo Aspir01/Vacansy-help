@@ -1,0 +1,81 @@
+.vacansy,
+.hide {
+    padding: 20px 30px;
+    background: #E9ECF1;
+    height: fit-content;
+    min-height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 5px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.vacansy:hover,
+.hide:hover {
+    color: white;
+    background-color: #33599A;
+}
+
+.vacansy:hover p,
+.hide:hover p {
+    color: white;
+}
+
+.hide {
+    min-height: 100px;
+    justify-content: center;
+}
+
+.vacansy h2 {
+    font-size: 32px;
+}
+
+.vacansy p {
+    transition: 0.2s;
+    margin: 5px 0;
+}
+
+.body {
+    display: flex;
+    justify-content: space-between;
+}
+
+.filter {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    max-width: 800px;
+}
+
+.filter p {
+    padding: 10px;
+    color: white;
+    margin: 10px 10px 0 0;
+    min-width: 120px;
+    text-align: center;
+    background-color: #33599A;
+}
+
+.btn {
+    border: none;
+    width: 240px;
+    height: 63px;
+    font-size: 20px;
+    margin: 20px 40%;
+    background: #E9ECF1;
+}
+
+.btn:hover {
+    color: white;
+    background: #33599A;
+}
+
+.list {
+    min-height: 950px;
+}
+
+.list a {
+    color: black;
+}

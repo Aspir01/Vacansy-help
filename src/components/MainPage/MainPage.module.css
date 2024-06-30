@@ -1,0 +1,150 @@
+.main {
+    width: 100%;
+    background: url(../../../public/nav_back.png);
+    background-position: center;
+}
+
+.sect {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 540px;
+    padding: 80px 0 190px 0;
+}
+
+.sect h2 {
+    font-size: 40px;
+    font-weight: 400;
+    text-transform: uppercase;
+    width: 1190px;
+}
+
+.sect h2 span {
+    color: #D7272D;
+}
+
+.hello {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 300px;
+    align-items: center;
+}
+
+.search {
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+}
+
+.search input {
+    width: 538px;
+    height: 30px;
+    font-size: 16px;
+    padding: 15px;
+}
+
+.search div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    background-color: white;
+    height: 42px;
+    min-width: 166px;
+    cursor: pointer;
+}
+
+.search button {
+    background-color: black;
+    padding: 15.5px;
+}
+
+.btns {
+    display: flex;
+    align-items: center;
+    margin-left: 1px;
+}
+
+.btns button {
+    width: 241.8px;
+    height: 63px;
+    font-size: 24px;
+    background-color: white;
+    border: none;
+}
+
+.btns button:hover {
+    color: white;
+    background-color: #33599A;
+}
+
+.all {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #25252E;
+    color: white;
+    padding: 10px;
+    height: 60px;
+    width: 260px;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+.all svg {
+    margin-left: 5px;
+}
+
+.all:hover {
+    background-color: #33599A;
+}
+
+@media (max-width: 520px) {
+
+    .main {
+        background-position: 2780px;
+    }
+
+    .sect {
+        height: 400px;
+        padding: 80px 0 50px 0;
+    }
+
+    .sect h2 {
+        width: 380px;
+        font-size: 22px;
+    }
+
+    .all {
+        width: 200px;
+        padding: 5px;
+    }
+
+    .search input {
+        font-size: 12px;
+        width: 305px;
+        height: 20px;
+        margin-left: 10px;
+    }
+
+    .search div {
+        display: none;
+    }
+
+    .search button {
+        width: 60px;
+        height: 50px;
+    }
+
+    .btns {
+        margin-left: 10px;
+    }
+
+    .btns button {
+        width: 80px;
+        font-size: 10px;
+        height: 40px;
+    }
+
+}
